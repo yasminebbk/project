@@ -1,0 +1,152 @@
+
+.mySlides {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+.contact {
+  position: relative;
+
+  background-size: cover;
+  height: 100vh; 
+  color: #fff;
+}
+
+.contactform {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.signin {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.inputboite {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%; 
+  height: auto; 
+}
+
+.container {
+  padding: 15px;
+}
+
+.container h4 {
+  margin: 0 0 10px; 
+  color: #333; 
+}
+
+.container p {
+  margin: 0;
+  font-size: 16px; 
+  color: #555;
+}
+
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+.consoles{
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fff8f8;
+  background-color: #000000;
+  text-align: center;
+}
+.stock{
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #fff8f8;
+  background-color: #000000;
+  text-align: center;
+}
+
+
+
+
+.slideshow-container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: block;
+margin: auto;
+  width: 50%;
+}
+
+
+.mySlides {
+  width: 100%; 
+  display: none;
+}
